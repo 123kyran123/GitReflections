@@ -1,0 +1,30 @@
+1) Clone repository:
+git clone https://github.com/udacity/asteroids.git
+To start git in an already existing directory, just go to that directory, right click and start Git Bash.
+
+2) Show log of all commits
+git log
+
+3) Show log of all commits with statistics
+git log --stat
+
+4) Show difference between files
+git diff df03 25ed
+
+5) Check out a previous version:
+git checkout 4035
+You can switch between version with git checkout without problems. Just don't try to change and save anything.
+
+6) Initialize git repository
+git init
+When you use this you have to open bash in the right folder. Then execute this and it'll make a repository
+with the already existing files in the folder.
+
+7) Show recently changed files
+git status
+This will show what branch you are on, what untracked files you have and which files have been changed 
+compared to 'HEAD'
+
+8) Add files to Stage
+git add lesson_1_reflections.txt
+This will add the file of your choice to the staging area. So that you can commit the stage.
